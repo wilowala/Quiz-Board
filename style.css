@@ -48,3 +48,24 @@ img{
     font-weight: 700;
     box-shadow: 2px 4px#ffa66b;
 }
+
+form{
+    background: linear-gradient(90deg, #f9ede6 68%, #303545 40%);
+    padding: 4rem 6rem;
+}
+
+form h2{
+    margin-left: 20rem;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    font-size: 40px;
+    color: #303545;
+}
+
+form p{
+    margin-left: 2rem ;
+}
+
+form .quiz{
+    margin-left: -0.5rem;
+}
