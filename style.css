@@ -3,6 +3,48 @@
     padding: 0;
     font-family: 'Sora', sans-serif;
 }
+body{
+    background-color: #ffa66b;
+}
+
 .container{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffa66b;
+    height: 100vh;
+}
+
+.container .img{
+    padding: 1rem;
+    margin-left: -4rem;
+}
+
+img{
+    width: 110%;
+}
+
+.container .java{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.container .java h2{
+    line-height: 3rem;
+    font-size: 42px;
+    color: #f9ede6;
+    text-align: center;
+    padding: 2rem;
+}
+
+.container .java button{
+    width: 50%;
+    height: 3.2rem;
+    background-color: #303545;
+    border: none;
+    color: #f9ede6;
+    font-size: 18px;
+    font-weight: 700;
+    box-shadow: 2px 4px#ffa66b;
 }
