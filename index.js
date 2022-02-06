@@ -1,8 +1,11 @@
 function launchExams(){
+
     var examForm = document.getElementById("question");
     examForm.style.display = "block";
+
     var landingPage = document.getElementById("container");
-    landingPage.style.display = "none"
+    landingPage.style.display = "none";
+
 }
 
 function sumTotal(){
@@ -16,25 +19,44 @@ function sumTotal(){
 
     var answers = document.getElementById("board");
     
-    if (presentOutcome1 = "JavaScript is a stripped-down version of Java"){
-        tally += 10
+    if (presentOutcome1 == "JavaScript is a stripped-down version of Java"){
+        tally += 20
     };
 
-    if (presentOutcome2 = "The User's machine running a Web browser"){
-        tally += 10
+    if (presentOutcome2 == "The User's machine running a Web browser"){
+        tally += 20
     };
 
-    if (presentOutcome3 = "Storing numbers, dates, or other values"){
-        tally += 10
+    if (presentOutcome3 == "Storing numbers, dates, or other values"){
+        tally += 20
     };
 
-    if (presentOutcome4 = "Storing the form's contents to a database file on the server"){
-        tally += 10
+    if (presentOutcome4 == "Storing the form's contents to a database file on the server"){
+        tally += 20
     };
 
-    if (presentOutcome5 = "Accept parameters"){
-        tally += 10
+    if (presentOutcome5 == "Accept parameters"){
+        tally += 20
     };
+
+    // if (tally >= 80){
+    //     tally.textContent = "Congratulatios! You have excelled in your test."
+    // }
+
+    // else if (tally >= 80 <= 50){
+    //     tally.textContent = "Fair trial! You have passed."
+    // }
+
+    // else (tally <= 50){
+    //     tally.textContent = "Ooops! Test failed. You need to retake the exam."
+    // }
 
     answers.textContent = tally;
+
+    var finalResults = document.getElementById("answer");
+    finalResults.style.display = "block"
+
+    var resultsPage = document.getElementById("question");
+    resultsPage.style.display = "none";
+
 }
