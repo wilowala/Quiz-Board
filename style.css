@@ -64,8 +64,30 @@ form h2{
 
 form p{
     margin-left: 2rem ;
+    color: #303545;
+    line-height: 1.3rem;
 }
 
 form .quiz{
     margin-left: -0.5rem;
+}
+
+input[name="question1"]{
+    accent-color: #ffa66b;
+}
+
+input[name="question2"]{
+    accent-color: #ffa66b;
+}
+
+input[name="question3"]{
+    accent-color: #ffa66b;
+}
+
+input[name="question4"]{
+    accent-color: #ffa66b;
+}
+
+input[name="question5"]{
+    accent-color: #ffa66b;
 }
