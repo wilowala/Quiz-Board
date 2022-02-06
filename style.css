@@ -54,6 +54,10 @@ form{
     padding: 4rem 6rem;
 }
 
+#question{
+    display: none;
+}
+
 form h2{
     margin-left: 20rem;
     margin-bottom: 2rem;
@@ -90,4 +94,17 @@ input[name="question4"]{
 
 input[name="question5"]{
     accent-color: #ffa66b;
+}
+
+#answers{
+    width: 30%;
+    height: 3.2rem;
+    background-color: #303545;
+    border: none;
+    color: #f9ede6;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 13rem;
+    margin-top: 2rem;
+    border-radius: 8px;
 }
