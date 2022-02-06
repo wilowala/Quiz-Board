@@ -14,7 +14,7 @@ function sumTotal(){
     var presentOutcome4 = document.exams.question4.value;
     var presentOutcome5 = document.exams.question5.value;
 
-    var answers = document.getElementById("answers");
+    var answers = document.getElementById("board");
     
     if (presentOutcome1 = "JavaScript is a stripped-down version of Java"){
         tally += 10
