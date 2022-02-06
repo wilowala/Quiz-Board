@@ -59,7 +59,7 @@ form{
 }
 
 form h2{
-    margin-left: 20rem;
+    margin-left: 18rem;
     margin-bottom: 2rem;
     font-weight: 700;
     font-size: 40px;
@@ -104,7 +104,7 @@ input[name="question5"]{
     color: #f9ede6;
     font-size: 18px;
     font-weight: 700;
-    margin-left: 13rem;
+    margin-left: 11rem;
     margin-top: 2rem;
     border-radius: 8px;
 }
