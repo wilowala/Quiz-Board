@@ -24,15 +24,15 @@ function sumTotal(){
         tally += 10
     };
 
-    if (presentOutcome1 = "Storing numbers, dates, or other values"){
+    if (presentOutcome3 = "Storing numbers, dates, or other values"){
         tally += 10
     };
 
-    if (presentOutcome1 = "Storing the form's contents to a database file on the server"){
+    if (presentOutcome4 = "Storing the form's contents to a database file on the server"){
         tally += 10
     };
 
-    if (presentOutcome1 = "Accept parameters"){
+    if (presentOutcome5 = "Accept parameters"){
         tally += 10
     };
 
