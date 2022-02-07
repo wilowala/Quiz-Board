@@ -18,4 +18,4 @@ MS weekly project that is aimed at enhancing skills and and concepts learned ove
 *Javascript- Used to embed logic on the site
 
 ### Design page
-/home/moringa/Downloads/IP3 designip3.png
+./imgs/IP3 designip3.png
