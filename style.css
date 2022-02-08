@@ -130,4 +130,8 @@ input[name="question5"]{
 #board{
     color: #f9ede6;
     font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+    margin: 4rem;
 }

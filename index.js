@@ -51,12 +51,15 @@ function sumTotal(){
     //     tally.textContent = "Ooops! Test failed. You need to retake the exam."
     // }
 
-    answers.textContent = tally;
+    // answers.textContent = tally;
 
     var finalResults = document.getElementById("answer");
     finalResults.style.display = "block"
 
     var resultsPage = document.getElementById("question");
     resultsPage.style.display = "none";
+
+    document.getElementById("display").innerHTML = tally;
+
 
 }
